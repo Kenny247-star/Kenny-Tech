@@ -1,0 +1,48 @@
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;}
+  
+.skewed-header > .header-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: left;
+    filter: brightness(0.5);}
+
+.skewed-header > .skewed-header-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;}
+
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    width: 350px;} 
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    color: white;
+    background-color: #cea135;
+    width: 150px;
+    padding: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper > h1 {
+    font-size: 2em;
+    font-family: "Tinos", serif;}

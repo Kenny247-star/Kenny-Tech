@@ -1,0 +1,92 @@
+/* Hero Section Styles */
+.hero-section {
+   background-image: url(../images/backgrounds/web.bg1.jpg);
+   padding: 100px ;
+   height: 300px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;}
+
+
+.hero-section > .top-heading { 
+   padding: 1px 20px;
+   background-color: #11122b;
+   color: #cbcbcb;
+   width: 340px;
+   border-radius: 2px;}
+
+   .hero-section > .top-heading h1 { 
+      font-size: 1.5rem; }
+
+.hero-section > .sub-heading { 
+ background-color: #cea135;
+ color: #11122b;
+ margin-top: 15px;
+   padding: 1px 20px;
+   width: 330px;
+   border-radius: 2px;   }
+   
+   .hero-section > .sub-heading h3 { 
+      font-size: 1rem; }
+
+   /* features section style */
+
+   .features-section { 
+      height: 320px;
+      background-image: url(../images/backgrounds/bg3.png); 
+      background-color: #cea135;
+      border-top: 10px solid white;
+      color: #11122b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Tinos", serif;
+      box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);}
+   
+   .features-section > .columns-wrapper {
+      width: 900px; 
+      display: flex;
+      justify-content:center;}
+
+   .features-section > .columns-wrapper  > .column{  
+      width: 900px; 
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-right: 90px;
+      margin-left: 90px; 
+       padding: 20px;
+      margin: 42px;
+      text-align: center;
+      border-bottom: 5px solid transparent;
+      border-radius: 10px;
+      transition: border-color 1s; /* Smooth transition for border color */
+      box-sizing: border-box; /* Ensure padding and border are included in size */ }
+      
+   .features-section > .columns-wrapper  > .column:hover {
+      border-bottom: 5px solid #11122b; }
+
+      
+
+
+   .features-section > .columns-wrapper  > .column :nth-child(1) {
+      font-size: 2.0rem; }
+      
+   .features-section > .columns-wrapper  > .column :nth-child(2) {
+      font-size: 1.5rem;
+      font-weight: 900px;
+      height: 60px; }
+         
+   .features-section > .columns-wrapper  > .column :nth-child(2):hover {
+      letter-spacing: 0.52px; 
+      text-align: center; }
+
+      .features-section > .columns-wrapper  > .column :nth-child(3):hover {
+         letter-spacing: 0.4px;
+         text-align: center;
+       }
+
+
+
+
+
